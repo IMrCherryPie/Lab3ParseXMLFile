@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE test [
+	<!ElEMENT test (questions+)>
+	<!ELEMENT questions (step+)>
+	<!ELEMENT step (answer+)>
+	<!ELEMENT answer (#PCDATA)>
+	<!ATTLIST test 
+	name ID #REQUIRED
+	theme CDATA #IMPLIED
+	countQuestions CDATA #REQUIRED
+	time CDDATA #REQUIRED
+	allPoints CDDATA #REQUIRED
+	>
+	<!ATTLIST step 
+	name ID #REQUIRED
+	difficulty CDATA #REQUIRED
+	points CDATA #REQUIRED
+	time CDDATA #REQUIRED
+	src CDDATA #REQUIRED
+	>
+	<!ATTLIST answer
+	name ID REQUIRED
+	cost CDATA 
+	>
+]>
+<test EXTERNAL_XML_VERSION="1.0">
+
+	<root name="testAnathome" theme="AnathomyPeople" countQuestions="10" time="6000" allPoints="10">
+		<questions>
+			<step name="q1" points="1" time="100" difficulty="50">
+				Функции данного органа в теле человека можно сравнить с работой фильтра. Они убирают из организма вредные продукты распада.
+				Кроме того, принимают участие в процессах кровообразования, регулируют кислотно-щелочной и водный баланс человеческого организма.
+				Что это за орган?
+				<answer name="a1" cost="0">Мочевой пузырь</answer>
+				<answer name="a2" cost="0">Желудок</answer>
+				<answer name="a3" cost="0">Печнь</answer>
+				<answer name="a4" cost="1">Почки</answer>
+			</step>
+			<step name="q2" points="1" time="100" difficulty="50">
+				Рост тела определяется гормоном роста. Этот гормон вырабатывается железой, расположенной в мозге. 
+				Перепроизводство гормона в детстве является причиной гигантизма. 
+				Назовите железу…
+				<answer name="a5" cost="0">Эпифизом</answer>
+				<answer name="a6" cost="1">Гипофизом</answer>
+				<answer name="a7" cost="0">Зобной</answer>
+				<answer name="a8" cost="0">Щитовидной</answer>
+			</step>
+			<step name="q3" points="1" time="100" difficulty="50">
+				Очень заразное вирусное заболевание, характеризующееся обильной сыпью, нередко оставляющей после себя рубцы.
+				<answer name="a9" cost="0">Туберкулёз</answer>
+				<answer name="a10" cost="0">ОРЗ</answer>
+				<answer name="a11" cost="1">Оспа</answer>
+				<answer name="a12" cost="0">Грипп</answer>
+			</step>
+			<step name="q4" points="1" time="100" difficulty="50">
+				Ф«Простуда на губах». Большинство людей видели у себя или у других неприятные прыщики на краю губы, которые через какое-то время покрываются корочкой. 
+				В народе этот недуг называют «простудой» или «лихорадкой». 
+				Как правильно называется этот недуг?
+				<answer name="a13" cost="0">Лишай</answer>
+				<answer name="a14" cost="0">Ветрянка</answer>
+				<answer name="a15" cost="1">Герпес</answer>
+				<answer name="a16" cost="0">ОСПА</answer>
+			</step>
+			<step name="q5" points="1" time="100" difficulty="50">
+				Острое инфекционное заболевание, отличительными особенностями которого является типичная сыпь, 
+				а также поражение конъюнктивы глаз и слизистых оболочек верхних дыхательных путей.
+				<answer name="a17" cost="0">Перитонит</answer>
+				<answer name="a18" cost="1">Корь</answer>
+				<answer name="a19" cost="0">Ветрянка</answer>
+				<answer name="a20" cost="0">ГРипп</answer>
+			</step>
+			<step name="q6" points="1" time="100" difficulty="50">
+				Какая из ниже перечисленных функций не характерна для крови?
+				<answer name="a21" cost="1">Опорная</answer>
+				<answer name="a22" cost="0">Защитная</answer>
+				<answer name="a23" cost="0">Транспортная</answer>
+				<answer name="a24" cost="0">Соединительная</answer>
+			</step>
+			<step name="q7" points="1" time="100" difficulty="50">
+				Выдающийся биолог и патолог. В 1983г. Открыл явление фагоцитоза. 
+				В 1901г. В своем знаменитом труде «Невосприимчивость в инфекционных болезнях» изложил фагоцитозную теорию.
+				<answer name="a25" cost="1">И.И. Мечников</answer>
+				<answer name="a26" cost="0">А.И. Опарин</answer>
+				<answer name="a27" cost="0">К. Линней</answer>
+				<answer name="a28" cost="0">Ж.Б. Лфмарк</answer>
+			</step>
+			<step name="q8" points="1" time="100" difficulty="50">
+				Основные исследования, посвященные физиологии высшей нервной деятельности сыграли большую роль в развитии физиологии, медицины и психологии. 
+				Его учение об условных рефлексах послужило основой для изучения высших функций мозга животных и человека.
+				<answer name="a29" cost="1">И.П. Павлов</answer>
+				<answer name="a30" cost="0">И.М Сеченов</answer>
+				<answer name="a31" cost="0">Г. Мендель</answer>
+				<answer name="a32" cost="0">Н.И. Вавилов</answer>
+			</step>
+			<step name="q9" points="1" time="100" difficulty="50">
+				Выдающийся русский физиолог, учёный-энциклопедист, психолог, патолог, анатом, гистолог, токсиколог, культуролог, антрополог, естествоиспытатель, химик, 
+				физико-химик, физик, биохимик, эволюционист, приборостроитель, военный инженер, педагог, публицист, гуманист, просветитель, философ и мыслитель-рационалист, 
+				создатель физиологической школы; заслуженный ординарный профессор.
+				<answer name="a33" cost="0">И.П Павлов</answer>
+				<answer name="a34" cost="0">А.И. Опарин</answer>
+				<answer name="a35" cost="0">Ч. Дарвин</answer>
+				<answer name="a36" cost="1">И.М Сеченов</answer>
+			</step>
+			<step name="q10" points="1" time="100" difficulty="50">
+				Применение какого научного метода иллюстрирует сюжет картины голландского художника Я. Стена «Пульс», 
+				написанной в середине XVII?
+				<answer name="a37" cost="0">Моделирование</answer>
+				<answer name="a38" cost="0">Наблюдение</answer>
+				<answer name="a39" cost="1">Эксперимент</answer>
+				<answer name="a40" cost="0">Измерение</answer>
+			</step>
+		</questions>
+	</root>
+</test>
